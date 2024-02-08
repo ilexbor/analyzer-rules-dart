@@ -1,0 +1,21 @@
+##
+## Dart
+##
+build/
+
+##
+## Dart Pub
+##
+.dart_tool/
+.packages
+pubspec.lock
+
+##
+## macOS
+##
+
+.DS_Store
+
+##
+## Other
+##

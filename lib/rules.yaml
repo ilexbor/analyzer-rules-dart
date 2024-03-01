@@ -124,7 +124,7 @@ analyzer:
     null_check_on_nullable_type_parameter: error
     null_closures: error
     omit_local_variable_types: error
-    one_member_abstracts: error
+    one_member_abstracts: info
     only_throw_errors: error
     overridden_fields: error
     package_api_docs: warning
@@ -352,7 +352,7 @@ linter:
     null_check_on_nullable_type_parameter: true
     null_closures: true
     omit_local_variable_types: true
-    one_member_abstracts: true
+    one_member_abstracts: false
     only_throw_errors: true
     overridden_fields: true
     package_api_docs: true

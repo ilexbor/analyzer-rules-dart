@@ -1,10 +1,12 @@
+# https://dart.dev/tools/diagnostic-messages
+
 analyzer:
 
   exclude:
     - # all rules should be sorted alphabetically
-    - "**/generated/*"
     - "**/*.g.dart"
     - "**/*.freezed.dart"
+    - "**/generated/*"
     - "build/**"
 
   language:

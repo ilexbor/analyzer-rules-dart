@@ -109,6 +109,7 @@ analyzer:
     literal_only_boolean_expressions: error
     matching_super_parameters: warning
     missing_whitespace_between_adjacent_strings: warning
+    must_be_immutable: error
     no_adjacent_strings_in_list: error
     no_default_cases: error
     no_duplicate_case_values: warning
@@ -337,6 +338,7 @@ linter:
     literal_only_boolean_expressions: true
     matching_super_parameters: true
     missing_whitespace_between_adjacent_strings: true
+    must_be_immutable: true
     no_adjacent_strings_in_list: true
     no_default_cases: true
     no_duplicate_case_values: true

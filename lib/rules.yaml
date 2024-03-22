@@ -68,7 +68,7 @@ analyzer:
     camel_case_extensions: error
     camel_case_types: error
     cancel_subscriptions: error
-    cascade_invocations: error
+    cascade_invocations: info
     cast_nullable_to_non_nullable: error
     close_sinks: error
     collection_methods_unrelated_type: error
@@ -297,7 +297,7 @@ linter:
     camel_case_extensions: true
     camel_case_types: true
     cancel_subscriptions: true
-    cascade_invocations: true
+    cascade_invocations: false
     cast_nullable_to_non_nullable: true
     close_sinks: true
     collection_methods_unrelated_type: true
